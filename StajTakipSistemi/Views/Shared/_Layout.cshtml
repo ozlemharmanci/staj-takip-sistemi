@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Staj Takip Sistemi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        .footer {
+            background-color: #f5f5f5;
+            padding: 20px 0;
+            margin-top: auto;
+            width: 100%;
+        }
+
+        .footer-links {
+            font-size: 0.9rem;
+        }
+
+            .footer-links a {
+                color: #6c757d;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+
+                .footer-links a:hover {
+                    color: #007bff;
+                    text-decoration: underline;
+                }
+
+        /* Navbar için düzenleme */
+        .navbar {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                    <i class="fas fa-briefcase me-2"></i>Staj Takip Sistemi
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        @if (!string.IsNullOrEmpty(Context.Session.GetString("Email")))
+                        {
+                            <li class="nav-item">
+                                <span class="nav-link">Hoş geldiniz, @Context.Session.GetString("Email")</span>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Logout", "Account")">
+                                    <i class="fas fa-sign-out-alt me-1"></i>Çıkış Yap
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="text-muted">© 2025 Staj Takip Sistemi - Tüm hakları saklıdır.</span>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-12 text-center footer-links">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#gizlilikModal">
+                        <i class="fas fa-shield-alt me-1"></i>Gizlilik Politikası
+                    </a>
+                    <span class="mx-2">•</span>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#kullanimModal">
+                        <i class="fas fa-file-contract me-1"></i>Kullanım Şartları
+                    </a>
+                    <span class="mx-2">•</span>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#iletisimModal">
+                        <i class="fas fa-envelope me-1"></i>İletişim
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal içerikleri aynı kalacak -->
+    <!-- Gizlilik Politikası Modal -->
+    <div class="modal fade" id="gizlilikModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title"><i class="fas fa-shield-alt me-2"></i>Gizlilik Politikası</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Kişisel Verilerin Korunması</h6>
+                    <p>Staj Takip Sistemi, 6698 sayılı Kişisel Verilerin Korunması Kanunu'na uygun olarak kişisel verilerinizi korumaktadır.</p>
+
+                    <h6>Toplanan Veriler</h6>
+                    <ul>
+                        <li>Ad, soyad, e-posta adresi</li>
+                        <li>Staj bilgileri (firma, tarih, süre)</li>
+                        <li>Yüklenen belgeler (PDF formatında)</li>
+                    </ul>
+
+                    <h6>Veri Güvenliği</h6>
+                    <p>Tüm veriler şifrelenmiş olarak saklanmakta và yetkisiz erişime karşı korunmaktadır.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kullanım Şartları Modal -->
+    <div class="modal fade" id="kullanimModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title"><i class="fas fa-file-contract me-2"></i>Kullanım Şartları</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Kabul ve Onay</h6>
+                    <p>Bu sistemi kullanarak aşağıdaki şartları kabul etmiş sayılırsınız:</p>
+
+                    <h6>Kullanıcı Yükümlülükleri</h6>
+                    <ul>
+                        <li>Doğru ve güncel bilgi sağlamak</li>
+                        <li>Şifrenizi güvenli tutmak</li>
+                        <li>Yasalara aykırı içerik yüklememek</li>
+                        <li>Sistemi kötüye kullanmamak</li>
+                    </ul>
+
+                    <h6>Fikri Mülkiyet</h6>
+                    <p>Sistem içeriği ve yazılımı telif haklarıyla korunmaktadır.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- İletişim Modal -->
+    <div class="modal fade" id="iletisimModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-success text-white">
+                    <h5 class="modal-title"><i class="fas fa-envelope me-2"></i>İletişim</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>İletişim Bilgileri</h6>
+                    <p><i class="fas fa-envelope me-2"></i> <strong>E-posta:</strong> info@stajtakip.com</p>
+                    <p><i class="fas fa-phone me-2"></i> <strong>Telefon:</strong> 0 (416) 216 41 08</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> <strong>Adres:</strong> Adıyaman Üniversitesi, Bilgi İşlem Daire Başkanlığı, Adıyaman</p>
+
+                    <h6>Çalışma Saatleri</h6>
+                    <p>Pazartesi - Cuma: 08:00 - 17:00</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

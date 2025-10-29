@@ -1,0 +1,408 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\seed-data.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\seed-data.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\home\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\student\\stajtalebi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\student\\stajtalebi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\admin\\silinenkayitlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\admin\\silinenkayitlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\student\\belgeyukle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\student\\belgeyukle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\models\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\models\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\models\\staj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\models\\staj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|c:\\users\\lenovo\\desktop\\stajtakipsistemi\\stajtakipsistemi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E583921-A678-4EF8-BB80-D35741D0281B}|StajTakipSistemi\\StajTakipSistemi.csproj|solutionrelative:stajtakipsistemi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "seed-data.js",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\seed-data.js",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\seed-data.js",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\seed-data.js",
+              "RelativeToolTip": "StajTakipSistemi\\seed-data.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-29T11:12:03.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\.gitignore",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\.gitignore",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\.gitignore",
+              "RelativeToolTip": "StajTakipSistemi\\.gitignore",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAADEBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-29T11:09:22.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\README.md",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\README.md",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\README.md",
+              "RelativeToolTip": "StajTakipSistemi\\README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-29T06:36:59.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswJ0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:39:59.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T08:16:47.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T20:42:15.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:17:10.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Program.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Program.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Program.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAK8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:58:54.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:39:41.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T08:15:46.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Home\\Error.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Home\\Error.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Home\\Error.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Home\\Error.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwCsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-13T22:17:06.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SilinenKayitlar.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Admin\\SilinenKayitlar.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Admin\\SilinenKayitlar.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Admin\\SilinenKayitlar.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Admin\\SilinenKayitlar.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-06T15:50:34.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BelgeYukle.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Student\\BelgeYukle.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Student\\BelgeYukle.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Student\\BelgeYukle.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Student\\BelgeYukle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T20:42:29.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:39:27.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAIwMIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T20:32:03.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StajTalebi.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Student\\StajTalebi.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Student\\StajTalebi.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Student\\StajTalebi.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Student\\StajTalebi.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T20:41:59.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Models\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Models\\MongoDbContext.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Models\\MongoDbContext.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Models\\MongoDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:00:04.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T20:41:02.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Staj.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Models\\Staj.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Models\\Staj.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Models\\Staj.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Models\\Staj.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:40:20.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Models\\User.cs",
+              "RelativeToolTip": "StajTakipSistemi\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T20:34:19.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\appsettings.json",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\appsettings.json",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\appsettings.json",
+              "RelativeToolTip": "StajTakipSistemi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T21:02:46.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-10T08:54:25.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T21:17:36.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "StajTakipSistemi\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\StajTakipSistemi\\StajTakipSistemi\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "StajTakipSistemi\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAAAJIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-28T20:41:21.506Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

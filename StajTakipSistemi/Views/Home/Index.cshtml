@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<style>
+    .hero-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(100vh - 200px); /* Footer yüksekliğini çıkar */
+        padding: 40px 20px;
+    }
+
+    .hero-section {
+        background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+        color: white;
+        border-radius: 20px;
+        padding: 60px 40px;
+        text-align: center;
+        max-width: 800px;
+        width: 100%;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .hero-title {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .hero-subtitle {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+        opacity: 0.9;
+    }
+
+    .hero-btn {
+        padding: 15px 40px;
+        font-size: 1.2rem;
+        border-radius: 50px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+    }
+
+        .hero-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+    @@media (max-width: 768px) {
+        .hero-section {
+            padding: 40px 20px;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+        }
+
+        .hero-btn {
+            padding: 12px 30px;
+            font-size: 1rem;
+        }
+    }
+</style>
+
+<div class="hero-container">
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <i class="fas fa-briefcase me-3"></i>Staj Takip Sistemine Hoş Geldiniz!
+            </h1>
+            <p class="hero-subtitle">
+                Öğrenci staj süreçlerini kolaylıkla yönetin ve takip edin
+            </p>
+            <a href="@Url.Action("Login", "Account")" class="btn btn-light hero-btn">
+                <i class="fas fa-sign-in-alt me-2"></i>Giriş Yap
+            </a>
+        </div>
+    </div>
+</div>

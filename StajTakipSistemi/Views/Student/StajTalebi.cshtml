@@ -1,0 +1,76 @@
+﻿@model Staj
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Staj Talebi";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white text-center">
+                <h4><i class="fas fa-file-alt me-2"></i>Staj Talebi Formu</h4>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Staj Dönemi</label>
+                            <input type="text" class="form-control" asp-for="StajDonemi" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Firma Adı</label>
+                            <input type="text" class="form-control" asp-for="Firma" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Başlangıç Tarihi</label>
+                            <input type="date" class="form-control" asp-for="BaslangicTarihi" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Bitiş Tarihi</label>
+                            <input type="date" class="form-control" asp-for="BitisTarihi" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Toplam İş Günü Sayısı</label>
+                            <input type="number" class="form-control" asp-for="ToplamGunSayisi" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Staj Dersi</label>
+                            <select class="form-select" asp-for="Ders" required>
+                                <option value="">Seçiniz</option>
+                                <option value="Staj I">Staj I</option>
+                                <option value="Staj II">Staj II</option>
+                            
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Ailenizden faydalandığınız sağlık sigortası var mı?</label>
+                        <div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" asp-for="SaglikSigortasiVarMi" value="true" id="sigortaEvet">
+                                <label class="form-check-label" for="sigortaEvet">Evet</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" asp-for="SaglikSigortasiVarMi" value="false" id="sigortaHayir">
+                                <label class="form-check-label" for="sigortaHayir">Hayır</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-save me-2"></i>Kaydet
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

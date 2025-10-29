@@ -1,0 +1,44 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Hata";
+}
+
+<style>
+    .error-container {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .error-card {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+</style>
+
+<div class="error-container">
+    <div class="error-card">
+        <div class="card shadow">
+            <div class="card-header bg-danger text-white text-center">
+                <h4><i class="fas fa-exclamation-triangle me-2"></i>Hata Oluştu</h4>
+            </div>
+            <div class="card-body text-center">
+                <div class="mb-4">
+                    <i class="fas fa-bug fa-4x text-danger mb-3"></i>
+                    <h5>Bir şeyler yanlış gitti</h5>
+                    <p class="text-muted">Üzgünüz, bir hata oluştu. Lütfen daha sonra tekrar deneyin.</p>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <a href="@Url.Action("Index", "Home")" class="btn btn-primary">
+                        <i class="fas fa-home me-2"></i>Ana Sayfaya Dön
+                    </a>
+                    <a href="@Url.Action("Login", "Account")" class="btn btn-outline-secondary">
+                        <i class="fas fa-sign-in-alt me-2"></i>Giriş Sayfasına Dön
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
