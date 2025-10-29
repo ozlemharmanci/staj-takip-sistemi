@@ -36,11 +36,6 @@ ASP.NET Core MVC ile geliştirilmiş staj başvuru ve takip sistemi.
 
  ## 👤 Test Hesapları
 
-### Giriş Bilgileri:
-- **Admin Paneli:** admin@stajtakip.com / admin123
-- **Öğrenci Paneli:** mehmet@stajtakip.com / mehmet123
-- **Öğrenci Paneli:** ayse@stajtakip.com / ayse123
-
 ### Test Verileri:
 - 3 farklı staj başvurusu
 - Onaylanmış ve bekleyen başvurular
